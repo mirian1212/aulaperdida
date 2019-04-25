@@ -1,0 +1,14 @@
+<ion-header>
+   <ion-toolbar>
+     <ion-title> Área do Triângulo</ion-title>
+     </ion-toolbar>
+  </ion-header>
+
+  <ion-content>
+    <ion-img scr = "../../assets/img/triangulo.jpg"></ion-img> // ../ sai da pasta triangulo e ../ sai da pasta componentes para entrar em assets
+    <ion-input [{ngModel}] = "base"></ion-input>
+    <ion-input [{ngModel}] = "altura"> </ion-input> // ngModel é o atributo que vai vincular
+    <ion-button color= "primary" expand = "full" (click) = "calcular()"></ion-button>
+
+    {{ resultado }}  // importar do ts pro html o resultado 
+    </ion-content>
