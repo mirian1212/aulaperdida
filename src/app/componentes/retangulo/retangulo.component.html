@@ -1,0 +1,14 @@
+<ion-header>
+   <ion-toolbar>
+     <ion-title> Área do Retângulo</ion-title>
+     </ion-toolbar>
+  </ion-header>
+
+  <ion-content>
+    <ion-img scr = "https://static.todamateria.com.br/upload/re/ai/rea_isosceles.jpg"></ion-img>
+    <ion-input [(ngModel)] = "base">Coloque o número da base:</ion-input>
+    <ion-input [(ngModel)] = "altura"> Insira a altura:</ion-input>
+    <ion-button color= "primary" expand = "full" (click) = "calcular()">Calcular</ion-button>
+
+    {{ resultado }}
+    </ion-content>

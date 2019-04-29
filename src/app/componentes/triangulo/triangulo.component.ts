@@ -4,9 +4,9 @@ import {Component} from '@angular/core';
   selector: 'triangulo-component',
   templateUrl: 'triangulo.component.html'
 })
-export class TrinaguloComponent{
-  altura: number= 0; //atributos
-  base: number = 0;
+export class TrianguloComponent{
+  altura: number; //atributos
+  base: number;
   resultado: string;
 
   calcular(): void {

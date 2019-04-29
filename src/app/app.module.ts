@@ -10,12 +10,13 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import {TrianguloComponent} from './componentes/triangulo/triangulo.component';
-import {FormsModule} from '@angular/fomrs';
+import {RetanguloComponent} from './componentes/retangulo/retangulo.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
-  declarations: [AppComponent, TrianguloComponent], // registrando o componente
+  declarations: [AppComponent, TrianguloComponent, RetanguloComponent], // registrando o componente
   entryComponents: [],
-  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, FomrsModule],
+  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, FormsModule],
   providers: [
     StatusBar,
     SplashScreen,
